@@ -13,21 +13,18 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let label:UILabel = UILabel(frame: CGRect(x: 20, y: 40, width: 300, height: 30))
-        label.text = "From Code"
-        view.addSubview(label)
         
-        let button:UIButton = UIButton(frame: CGRect(x: 20, y: 100, width: 175, height: 40))
-        button.setTitle("Code Button", for:.normal)
-        button.setTitleColor(UIColor.black, for: .normal)
-        button.backgroundColor = UIColor.cyan
-        button.addTarget(self, action: #selector(didClick), for: .touchUpInside)
-        
-        view.addSubview(button)
     }
     
-    func didClick(btn:UIButton) {
-        btn.setTitle("Clicked!", for:.normal)
+    @IBAction func showAlert() {
+        let alert:UIAlertController = UIAlertController(title: "Title", message: "Message", preferredStyle: .alert)
+        let action1:UIAlertAction = UIAlertAction(title: "Cancel", style: .cancel) { (_:UIAlertAction) in
+            print("Cancelled!")
+        }
+        alert.addAction(action1)
+        self.present(alert, animated: true) { 
+            print("present complete")
+        }
     }
     
     override func didReceiveMemoryWarning() {
@@ -35,6 +32,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
 
 }
 
