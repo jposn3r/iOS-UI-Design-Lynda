@@ -17,11 +17,18 @@ class ViewController: UIViewController {
     }
     
     @IBAction func showAlert() {
-        let alert:UIAlertController = UIAlertController(title: "Title", message: "Message", preferredStyle: .alert)
-        let action1:UIAlertAction = UIAlertAction(title: "Cancel", style: .cancel) { (_:UIAlertAction) in
-            print("Cancelled!")
-        }
+        // Create the alert
+        let alert:UIAlertController = UIAlertController(title: "Dude!", message: "This is an alert breh..", preferredStyle: .actionSheet)
+        
+        // Define its actions
+        let action1:UIAlertAction = UIAlertAction(title: "Click me prease", style: .cancel) { (_:UIAlertAction) in print("Cancelled!")}
+        let action2:UIAlertAction = UIAlertAction(title: "Delete", style: .destructive) { (_:UIAlertAction) in print("Deleted!") }
+        
+        // Add the actions
         alert.addAction(action1)
+        alert.addAction(action2)
+        
+        // Present the view
         self.present(alert, animated: true) { 
             print("present complete")
         }
