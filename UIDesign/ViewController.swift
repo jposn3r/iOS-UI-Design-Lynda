@@ -9,7 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var progBar: UIProgressView!
+    
+    @IBOutlet weak var myIndicator: UIActivityIndicatorView!
     
     
     override func viewDidLoad() {
@@ -17,9 +18,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
     }
-    @IBAction func didMoveSlider(_ sender: UISlider) {
-        let percent:Float = sender.value / sender.maximumValue
-        progBar.progress = percent
+    @IBAction func switchDidChange(_ sender: UISwitch) {
+        if !sender.isOn {
+            myIndicator.stopAnimating()
+        }
+        else {
+            myIndicator.startAnimating()
+        }
     }
     
     override func didReceiveMemoryWarning() {
