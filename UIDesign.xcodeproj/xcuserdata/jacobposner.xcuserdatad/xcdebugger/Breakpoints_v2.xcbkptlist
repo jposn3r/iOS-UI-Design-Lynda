@@ -22,31 +22,16 @@
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "UIDesign.ViewController.__deallocating_deinit"
-                  moduleName = "UIDesign"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jacobposner/Desktop/Lynda/iOS/UIDesign/UIDesign/ViewController.swift"
-                  timestampString = "504466919.07897"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "4">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
                   symbolName = "UIDesign.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; UIDesign.ViewController"
                   moduleName = "UIDesign"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jacobposner/Desktop/Lynda/iOS/UIDesign/UIDesign/ViewController.swift"
-                  timestampString = "504466919.080758"
+                  timestampString = "504463623.827675"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "11"
-                  endingLineNumber = "11"
-                  offsetFromSymbolStart = "107">
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "65">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -56,7 +41,7 @@
                   moduleName = "UIDesign"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jacobposner/Desktop/Lynda/iOS/UIDesign/UIDesign/ViewController.swift"
-                  timestampString = "504466919.082287"
+                  timestampString = "504463623.82922"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -71,7 +56,7 @@
                   moduleName = "UIDesign"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jacobposner/Desktop/Lynda/iOS/UIDesign/UIDesign/ViewController.swift"
-                  timestampString = "504466919.083753"
+                  timestampString = "504463623.831036"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -86,12 +71,12 @@
                   moduleName = "UIDesign"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jacobposner/Desktop/Lynda/iOS/UIDesign/UIDesign/ViewController.swift"
-                  timestampString = "504466919.085082"
+                  timestampString = "504463623.832699"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "11"
-                  endingLineNumber = "11"
-                  offsetFromSymbolStart = "105">
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "23">
                </Location>
             </Locations>
          </BreakpointContent>
