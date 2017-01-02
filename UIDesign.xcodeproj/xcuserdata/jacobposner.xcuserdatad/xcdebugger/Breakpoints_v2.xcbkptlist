@@ -26,12 +26,12 @@
                   moduleName = "UIDesign"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jacobposner/Desktop/Lynda/iOS/UIDesign/UIDesign/ViewController.swift"
-                  timestampString = "504463623.827675"
+                  timestampString = "505084162.405207"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "65">
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "107">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -41,7 +41,7 @@
                   moduleName = "UIDesign"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jacobposner/Desktop/Lynda/iOS/UIDesign/UIDesign/ViewController.swift"
-                  timestampString = "504463623.82922"
+                  timestampString = "505084162.406863"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -56,7 +56,7 @@
                   moduleName = "UIDesign"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jacobposner/Desktop/Lynda/iOS/UIDesign/UIDesign/ViewController.swift"
-                  timestampString = "504463623.831036"
+                  timestampString = "505084162.408365"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -71,30 +71,14 @@
                   moduleName = "UIDesign"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jacobposner/Desktop/Lynda/iOS/UIDesign/UIDesign/ViewController.swift"
-                  timestampString = "504463623.832699"
+                  timestampString = "505084162.40983"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "23">
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "105">
                </Location>
             </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "UIDesign/ViewController.swift"
-            timestampString = "504764307.218173"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "pickerView(_:didSelectRow:inComponent:)"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
